@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\STM32F4-SSD1306\cmsis -I..\..\..\workspace\STM32F4-SSD1306\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\STM32F4-SSD1306\cmsis_lib -I..\..\.. -I..\..\..\workspace\STM32F4-SSD1306 -I..\..\..\workspace\STM32F4-SSD1306\cmsis_lib\include">
+      <target file="stm32f4xx_spi.o" lastModified="14b2c9c52f6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14b2c8fce8e"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14b2c9c4cff">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14b2c8fcf65"/>
+      </target>
+      <target file="SSD1306.o" lastModified="14b2c9c543b">
+         <source file="..\..\..\SSD1306.c" lastModified="14b2c958380"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14b2c9c5193">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14b2c8fcee0"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14b2c9c505a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14b2c90dc7c"/>
+      </target>
+      <target file="main.o" lastModified="14b2c9c4ae8">
+         <source file="..\..\..\main.c" lastModified="14b2c967663"/>
+      </target>
+      <target file="GFX.o" lastModified="14b2c9c4f06">
+         <source file="..\..\..\GFX.c" lastModified="14ab2b04961"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14b2c9c4995">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14b2c8fceaf"/>
+      </target>
+   </processor>
+</history>

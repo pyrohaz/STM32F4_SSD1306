@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.4.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=STM32F4-SSD1306.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F4-SSD1306 -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F4-SSD1306/arm-gcc-link.ld -g">
+      <target file="STM32F4-SSD1306.elf" lastModified="14b2c9c57d2">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14b2c9c4995"/>
+         <source file="..\obj\main.o" lastModified="14b2c9c4ae8"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14b2c9c4cff"/>
+         <source file="..\obj\GFX.o" lastModified="14b2c9c4f06"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14b2c9c505a"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14b2c9c5193"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="14b2c9c52f6"/>
+         <source file="..\obj\SSD1306.o" lastModified="14b2c9c543b"/>
+      </target>
+   </processor>
+</history>
